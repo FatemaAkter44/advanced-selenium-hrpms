@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTestSuite" duration-ms="13352" started-at="2023-01-07T20:25:13Z" finished-at="2023-01-07T20:25:26Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="13352" started-at="2023-01-07T20:25:13Z" finished-at="2023-01-07T20:25:26Z">
+      <class name="com.herokuapp.theinternet.SiteMenuPageTest.SiteManuTests">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.SiteMenuPageTest.SiteManuTests@32709393]" name="setUp" is-config="true" duration-ms="5535" started-at="2023-01-07T20:25:13Z" finished-at="2023-01-07T20:25:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.SiteMenuPageTest.SiteManuTests.verifyLogin(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cbe877d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogin(java.util.Map)[pri:1, instance:com.herokuapp.theinternet.SiteMenuPageTest.SiteManuTests@32709393]" name="verifyLogin" duration-ms="7322" started-at="2023-01-07T20:25:19Z" data-provider="csvReader" finished-at="2023-01-07T20:25:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=user2022@, username=testuser2022}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.SiteMenuPageTest.SiteManuTests@32709393]" name="tearDown" is-config="true" duration-ms="146" started-at="2023-01-07T20:25:26Z" finished-at="2023-01-07T20:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.SiteMenuPageTest.SiteManuTests -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- SmokeTestSuite -->
+</testng-results>

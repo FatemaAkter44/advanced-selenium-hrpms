@@ -1,0 +1,6 @@
+com/herokuapp/theinternet/loginpagetests/NegativeLogInTests.class
+com/herokuapp/theinternet/loginpagetests/PositiveLogInTests.class
+com/herokuapp/theinternet/CheckBoxTests/CheckBoxTests.class
+com/herokuapp/theinternet/homepagetests/HomePageTests.class
+com/herokuapp/theinternet/SiteMenuPageTest/SiteManuTests.class
+com/herokuapp/theinternet/addremovepagetest/AddRemovePageTest.class
